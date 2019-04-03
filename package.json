@@ -29,7 +29,7 @@
     "style-loader": "0.x",
     "url-loader": "~0.5.6",
     "webpack": "1.x",
-    "webpack-dev-server": "1.x"
+    "webpack-dev-server": "2.2.0"
   },
   "repository": "ruanyf/webpack-demos"
 }
