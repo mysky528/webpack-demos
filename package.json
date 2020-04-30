@@ -29,7 +29,13 @@
     "style-loader": "0.x",
     "url-loader": "~0.5.6",
     "webpack": "1.x",
-    "webpack-dev-server": "1.x"
+    "webpack-dev-server": "1.x",
+    "snyk": "^1.316.1"
   },
-  "repository": "ruanyf/webpack-demos"
+  "repository": "ruanyf/webpack-demos",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
