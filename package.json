@@ -28,7 +28,7 @@
     "react-router": "2.x",
     "style-loader": "0.x",
     "url-loader": "~0.5.6",
-    "webpack": "1.x",
+    "webpack": "2.2.0",
     "webpack-dev-server": "1.x"
   },
   "repository": "ruanyf/webpack-demos"
